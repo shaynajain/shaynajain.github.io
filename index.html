@@ -1,1 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Shayna Jain — Computer Science at Johns Hopkins. Cybersecurity, AI, and computational neuroscience." />
+  <title>Shayna Jain</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#top" aria-label="Home">
+        Shayna<span class="dot">•</span>Jain
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="pill">Contact</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="container mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="badge">Johns Hopkins • CS (B.S.) • Cybersecurity • AI</p>
+          <h1>
+            Building secure, human-centered systems
+            <span class="muted">across cybersecurity, AI, and health-tech.</span>
+          </h1>
+
+          <p class="subhead">
+            I’m Shayna Jain — a Computer Science student at Johns Hopkins interested in
+            cybersecurity, AI, and computational neuroscience. I’ve worked on secure frontend workflows,
+            AI-driven narrative analytics, and applied security assessments.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Get in touch</a>
+            <!-- Optional: add assets/resume.pdf -->
+            <a class="btn ghost" href="assets/resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+          </div>
+
+          <div class="link-row">
+            <a href="mailto:shaynajain@gmail.com">shaynajain@gmail.com</a>
+            <span class="sep">•</span>
+            <a href="https://linkedin.com/in/shayna-jain-088877285" target="_blank" rel="noopener">LinkedIn</a>
+            <span class="sep">•</span>
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="card portrait">
+            <!-- Optional: replace with your headshot -->
+            <div class="portrait-placeholder" aria-hidden="true"></div>
+            <div class="portrait-meta">
+              <p class="portrait-name">Shayna Jain</p>
+              <p class="portrait-role">CS @ Johns Hopkins</p>
+              <div class="mini">
+                <span class="tag">Cybersecurity</span>
+                <span class="tag">AI</span>
+                <span class="tag">Health-tech</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card quickfacts">
+            <h2 class="card-title">Now</h2>
+            <ul class="list">
+              <li><strong>Focus:</strong> security + applied AI projects</li>
+              <li><strong>Interests:</strong> network security, trustworthy AI, computational neuro</li>
+              <li><strong>Open to:</strong> research + internships</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p class="muted">A quick snapshot of what I care about and how I work.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>What I’m building toward</h3>
+            <p>
+              I’m interested in roles where I can combine <strong>security</strong> with <strong>applied AI</strong>—
+              especially in national security and health-tech contexts. I like projects that connect technical rigor
+              to real people and real constraints.
+            </p>
+            <p>
+              Recently, I’ve worked on secure workflows for transcription + summaries, narrative analytics on
+              global events, and hands-on vulnerability assessment work.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>What you can expect from me</h3>
+            <ul class="list">
+              <li><strong>Clear communication</strong> (I write and present findings for mixed audiences)</li>
+              <li><strong>Security mindset</strong> (threat modeling, validation, safer defaults)</li>
+              <li><strong>Practical builds</strong> (shipping small, real systems with measurable outcomes)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p class="muted">Highlights across security, AI, and research.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item card">
+            <div class="timeline-top">
+              <h3>Software Engineering &amp; Cyber Security Intern — Medikeet</h3>
+              <span class="time">2025</span>
+            </div>
+            <ul class="list">
+              <li>Secured frontend workflows for real-time audio transcription and clinical summaries.</li>
+              <li>Enforced HTTPS and client-side validation to protect sensitive patient data.</li>
+              <li>Collaborated with developers to ensure encrypted, compliant data transmission.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item card">
+            <div class="timeline-top">
+              <h3>Product Development Intern — EdgeTheory</h3>
+              <span class="time">Oct 2025 – Present</span>
+            </div>
+            <ul class="list">
+              <li>Leveraged AI-driven narrative analytics to examine how global media frames geopolitical and cyber events.</li>
+              <li>Researched and published weekly analyses; produced briefs and curated collections for diverse audiences.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item card">
+            <div class="timeline-top">
+              <h3>National Security Fellow — Girl Security</h3>
+              <span class="time">Nov 2024 – Jan 2025</span>
+            </div>
+            <ul class="list">
+              <li>Selected to study defense &amp; intelligence, diplomacy, foreign partnerships, and information technology &amp; cybersecurity.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item card">
+            <div class="timeline-top">
+              <h3>Cybersecurity Intern — Procellis Technology</h3>
+              <span class="time">Jul 2024 – Aug 2024</span>
+            </div>
+            <ul class="list">
+              <li>Conducted a GLBA compliance assessment and verified adherence to relevant federal regulations.</li>
+              <li>Prepared a vulnerability assessment report from scan analysis; presented risks and recommendations.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item card">
+            <div class="timeline-top">
+              <h3>Research Intern — Massport</h3>
+              <span class="time">Jan 2024 – Mar 2024</span>
+            </div>
+            <ul class="list">
+              <li>Researched urban heat island impacts and presented mitigation strategies to a real estate team.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item card">
+            <div class="timeline-top">
+              <h3>Mobile Development Intern — Wright’s Resumes &amp; Connections</h3>
+              <span class="time">Aug 2023 – Dec 2023</span>
+            </div>
+            <ul class="list">
+              <li>Analyzed geolocation API integration to optimize job-matching based on user location.</li>
+              <li>Proposed an improved database structure; implemented new mobile app features.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">A few things I’ve built or led — with clear outcomes.</p>
+        </div>
+
+        <div class="cards-3">
+          <article class="card project">
+            <div class="project-top">
+              <h3>AIDA — Adaptive Intelligence Diabetes Assistant</h3>
+              <span class="chip">Health-tech</span>
+            </div>
+            <p>
+              Digital health solution providing personalized insulin guidance for T1D patients, validated with clinicians
+              and diabetes experts.
+            </p>
+            <ul class="list compact">
+              <li>Validated pain points + solution with domain experts</li>
+              <li>Market analysis focused on pen + CGM users</li>
+              <li>Awarded 2nd place in a pre-accelerator pitch competition</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Demo</a>
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+              <a href="#" target="_blank" rel="noopener">Write-up</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <h3>Microscopy Capstone — NASA AI/ML Space Biology</h3>
+              <span class="chip">ML</span>
+            </div>
+            <p>
+              Built Python ML pipelines to analyze microscopy images of irradiated mouse fibroblast nuclei and extract
+              biologically meaningful patterns.
+            </p>
+            <ul class="list compact">
+              <li>Regression, classification, clustering</li>
+              <li>High-throughput image processing + feature workflows</li>
+              <li>Actionable insights from complex experimental data</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+              <a href="#" target="_blank" rel="noopener">Poster</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <h3>WBLA Web App Vulnerability Assessment</h3>
+              <span class="chip">Security</span>
+            </div>
+            <p>
+              Led a team vulnerability assessment on a web application and presented findings to stakeholders.
+            </p>
+            <ul class="list compact">
+              <li>Identified risks using HostedScan and manual review</li>
+              <li>Analyzed issues and proposed mitigations</li>
+              <li>Delivered stakeholder presentation</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Slides</a>
+              <a href="#" target="_blank" rel="noopener">Report</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <h3>Cybersecurity Awareness Campaign (450+ students)</h3>
+              <span class="chip">Education</span>
+            </div>
+            <p>
+              Launched a district-wide program reaching 450+ middle school students with gamified challenges.
+            </p>
+            <ul class="list compact">
+              <li>Interactive lessons on phishing, password hygiene, digital safety</li>
+              <li>Designed curriculum aligned with national security principles</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Materials</a>
+              <a href="#" target="_blank" rel="noopener">Photos</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="muted small">
+          Tip: Replace the “Demo / GitHub / Write-up” links with your real URLs (or remove what you don’t want).
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills &amp; Credentials</h2>
+          <p class="muted">Tools I use + certifications and awards.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Technical</h3>
+            <div class="pills">
+              <span class="pill2">Python</span>
+              <span class="pill2">Java</span>
+              <span class="pill2">C/C++</span>
+              <span class="pill2">MySQL</span>
+              <span class="pill2">HTML/CSS</span>
+              <span class="pill2">Wireshark</span>
+              <span class="pill2">nmap</span>
+              <span class="pill2">tcpdump</span>
+              <span class="pill2">Zeek</span>
+              <span class="pill2">Snort3</span>
+              <span class="pill2">Autopsy</span>
+              <span class="pill2">Android Studio</span>
+              <span class="pill2">Tableau</span>
+              <span class="pill2">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Certifications &amp; Awards</h3>
+            <ul class="list">
+              <li><strong>National Cyber Scholar with Honors (2024)</strong> — shortlisted from 45,000+ students; $12,000+ scholarship for GSEC + training</li>
+              <li>GIAC Security Essentials (GSEC)</li>
+              <li>GIAC Foundational Cybersecurity Technologies (GFACT)</li>
+              <li>Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)</li>
+              <li>Google Cybersecurity Professional Certificate</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top: 14px;">
+          <h3>Training</h3>
+          <p class="muted">
+            NASA TOPS-T ScienceCore AI/ML in Space Biology • SANS SEC401 • SANS SEC275 • USCC Cyber Challenge Camp •
+            Quantum Winter School (Microsoft Azure) • QxQ Intro to Quantum Computing • TiE Entrepreneurship Academy
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Best way to reach me: email or LinkedIn.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Say hi</h3>
+            <p>
+              I’m happy to chat about cybersecurity internships, applied AI, health-tech, or research collaborations.
+            </p>
+            <div class="contact-box">
+              <a class="btn primary" href="mailto:shaynajain@gmail.com">Email me</a>
+              <a class="btn" href="https://linkedin.com/in/shayna-jain-088877285" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+            <p class="muted small">Optional: you can remove your phone number from the site for privacy.</p>
+          </div>
+
+          <div class="card">
+            <h3>Quick links</h3>
+            <ul class="list">
+              <li><a href="#projects">Projects</a> (recommended first stop)</li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="assets/resume.pdf" target="_blank" rel="noopener">Resume PDF</a> (optional)</li>
+              <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> (add your profile)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Shayna Jain</p>
+        <p class="muted small">Built with GitHub Pages • Lightweight HTML/CSS</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
