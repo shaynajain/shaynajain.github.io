@@ -351,6 +351,44 @@ h1{
 }
 .small{ font-size: 13px; }
 
+/* --- Hero spacing + layout cleanup --- */
+.hero{
+  padding: 70px 0 34px;         /* more breathing room above About */
+}
+
+.hero-grid{
+  grid-template-columns: 1fr;   /* make hero single-column */
+  gap: 16px;
+}
+
+.hero-right{
+  display: none;               /* hides the cramped "Now" card */
+}
+
+.subhead{
+  margin-top: 10px;
+}
+
+.cta-row{
+  margin: 16px 0 10px;
+}
+
+.link-row{
+  margin-top: 8px;
+  gap: 8px;
+}
+
+/* Make the badge a little tighter on mobile */
+.badge{
+  line-height: 1.2;
+}
+
+/* Optional: slightly reduce nav padding so header feels cleaner */
+.nav{
+  padding: 12px 0;
+}
+
+
 @media (max-width: 980px){
   .hero-grid{ grid-template-columns: 1fr; }
   .cards-3{ grid-template-columns: 1fr 1fr; }
