@@ -66,7 +66,7 @@
             <span class="sep">•</span>
             <a href="https://linkedin.com/in/shayna-jain-088877285" target="_blank" rel="noopener">LinkedIn</a>
             <span class="sep">•</span>
-            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/shaynajain" target="_blank" rel="noopener">GitHub</a>
           </div>
         </div>
 
@@ -169,83 +169,98 @@
         </div>
 
         <article class="card project">
-        <div class="project-top">
-          <h3>EEG Functional Connectivity (MNE-Python)</h3>
-          <span class="chip">Neuroscience</span>
-        </div>
-        <p>
-          Built an end-to-end EEG analysis pipeline in MNE-Python to study alpha-band (8–13 Hz) functional connectivity
-          during rest vs. motor execution on real human neurophysiological data (PhysioNet EEGMMIDB).
-        </p>
-        <ul class="list compact">
-          <li>Computed coherence-based functional connectivity matrices and constructed thresholded brain networks.</li>
-          <li>Quantified state-dependent differences using graph metrics (degree, clustering coefficient) while controlling for graph density.</li>
-          <li>Visualized functional networks using true scalp electrode coordinates and interpreted network-level changes while accounting for methodological confounds.</li>
-        </ul>
-      </article>
+          <div class="project-top">
+            <h3>EEG Functional Connectivity (MNE-Python)</h3>
+            <span class="chip">Neuroscience</span>
+          </div>
+          <p>
+            Built an end-to-end EEG analysis pipeline in MNE-Python to study alpha-band (8–13 Hz) functional connectivity
+            during rest vs. motor execution on real human neurophysiological data (PhysioNet EEGMMIDB).
+          </p>
+          <ul class="list compact">
+            <li>Computed coherence-based functional connectivity matrices and constructed thresholded brain networks.</li>
+            <li>Quantified state-dependent differences using graph metrics (degree, clustering coefficient) while controlling for graph density.</li>
+            <li>Visualized functional networks using true scalp electrode coordinates and interpreted network-level changes while accounting for methodological confounds.</li>
+          </ul>
+        </article>
 
+        <!-- NEW PROJECT: EEG SUBJECT IDENTIFICATION -->
+        <article class="card project">
+          <div class="project-top">
+            <h3>EEG Subject Identification via Functional Connectivity</h3>
+            <span class="chip">ML + Neuroscience</span>
+          </div>
+          <p>
+            Investigated whether individual-specific EEG connectivity patterns act as stable “fingerprints” across brain states
+            using 64-channel scalp EEG from PhysioNet EEGMMIDB.
+          </p>
+          <ul class="list compact">
+            <li>Computed alpha-band coherence per 2s epoch and extracted interpretable graph features (degree, clustering; motor landmarks C3/C4).</li>
+            <li>Trained a multiclass logistic regression classifier to predict subject ID from connectivity-derived features.</li>
+            <li>Achieved <strong>61.8% cross-state accuracy</strong> training on resting EEG (Run 1) and testing on motor imagery EEG (Run 3), vs. 10% chance baseline.</li>
+          </ul>
+        </article>
 
-          <article class="card project">
-            <div class="project-top">
-              <h3>AIDA — Adaptive Intelligence Diabetes Assistant</h3>
-              <span class="chip">Health-tech</span>
-            </div>
-            <p>
-              Digital health solution providing personalized insulin guidance for T1D patients, validated with clinicians
-              and diabetes experts.
-            </p>
-            <ul class="list compact">
-              <li>Validated pain points + solution with domain experts</li>
-              <li>Market analysis focused on pen + CGM users</li>
-              <li>Awarded 2nd place in a pre-accelerator pitch competition</li>
-            </ul>
-          </article>
+        <article class="card project">
+          <div class="project-top">
+            <h3>AIDA — Adaptive Intelligence Diabetes Assistant</h3>
+            <span class="chip">Health-tech</span>
+          </div>
+          <p>
+            Digital health solution providing personalized insulin guidance for T1D patients, validated with clinicians
+            and diabetes experts.
+          </p>
+          <ul class="list compact">
+            <li>Validated pain points + solution with domain experts</li>
+            <li>Market analysis focused on pen + CGM users</li>
+            <li>Awarded 2nd place in a pre-accelerator pitch competition</li>
+          </ul>
+        </article>
 
-          <article class="card project">
-            <div class="project-top">
-              <h3>Microscopy Capstone — NASA AI/ML Space Biology</h3>
-              <span class="chip">ML</span>
-            </div>
-            <p>
-              Built Python ML pipelines to analyze microscopy images of irradiated mouse fibroblast nuclei and extract
-              biologically meaningful patterns.
-            </p>
-            <ul class="list compact">
-              <li>Regression, classification, clustering</li>
-              <li>High-throughput image processing + feature workflows</li>
-              <li>Actionable insights from complex experimental data</li>
-            </ul>
-          </article>
+        <article class="card project">
+          <div class="project-top">
+            <h3>Microscopy Capstone — NASA AI/ML Space Biology</h3>
+            <span class="chip">ML</span>
+          </div>
+          <p>
+            Built Python ML pipelines to analyze microscopy images of irradiated mouse fibroblast nuclei and extract
+            biologically meaningful patterns.
+          </p>
+          <ul class="list compact">
+            <li>Regression, classification, clustering</li>
+            <li>High-throughput image processing + feature workflows</li>
+            <li>Actionable insights from complex experimental data</li>
+          </ul>
+        </article>
 
-          <article class="card project">
-            <div class="project-top">
-              <h3>WBLA Web App Vulnerability Assessment</h3>
-              <span class="chip">Security</span>
-            </div>
-            <p>
-              Led a team vulnerability assessment on a web application and presented findings to stakeholders.
-            </p>
-            <ul class="list compact">
-              <li>Identified risks using HostedScan and manual review</li>
-              <li>Analyzed issues and proposed mitigations</li>
-              <li>Delivered stakeholder presentation</li>
-            </ul>
-          </article>
+        <article class="card project">
+          <div class="project-top">
+            <h3>WBLA Web App Vulnerability Assessment</h3>
+            <span class="chip">Security</span>
+          </div>
+          <p>
+            Led a team vulnerability assessment on a web application and presented findings to stakeholders.
+          </p>
+          <ul class="list compact">
+            <li>Identified risks using HostedScan and manual review</li>
+            <li>Analyzed issues and proposed mitigations</li>
+            <li>Delivered stakeholder presentation</li>
+          </ul>
+        </article>
 
-          <article class="card project">
-            <div class="project-top">
-              <h3>Cybersecurity Awareness Campaign (450+ students)</h3>
-              <span class="chip">Education</span>
-            </div>
-            <p>
-              Launched a district-wide program reaching 450+ middle school students with gamified challenges.
-            </p>
-            <ul class="list compact">
-              <li>Interactive lessons on phishing, password hygiene, digital safety</li>
-              <li>Designed curriculum aligned with national security principles</li>
-            </ul>
-          </article>
-        </div>
+        <article class="card project">
+          <div class="project-top">
+            <h3>Cybersecurity Awareness Campaign (450+ students)</h3>
+            <span class="chip">Education</span>
+          </div>
+          <p>
+            Launched a district-wide program reaching 450+ middle school students with gamified challenges.
+          </p>
+          <ul class="list compact">
+            <li>Interactive lessons on phishing, password hygiene, digital safety</li>
+            <li>Designed curriculum aligned with national security principles</li>
+          </ul>
+        </article>
       </div>
     </section>
 
